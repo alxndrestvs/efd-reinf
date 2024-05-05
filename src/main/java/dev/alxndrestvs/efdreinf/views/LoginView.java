@@ -10,7 +10,7 @@ import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.auth.AnonymousAllowed;
 
-@Route(value = "login", layout = MainLayout.class)
+@Route(value = "login")
 @PageTitle("Login | EFD-Reinf")
 @AnonymousAllowed
 public class LoginView extends VerticalLayout implements BeforeEnterObserver {
